@@ -1,0 +1,25 @@
+{
+    "intro": {
+        "slides": [
+            {
+                "do_fade": true,
+                "id": "intro_1",
+                "show_time": 1000,
+                "text": {
+                    "text": "Tämä on tarina aikamatkailusta"
+                }
+            }
+        ],
+        "transition_length": 1000
+    },
+    "outro": {
+        "slides": [
+            {
+                "do_fade": true,
+                "id": "outro0",
+                "show_time": 4000,
+                "imageSrc": "images/end_picture.png"
+            }
+        ]
+    }
+}

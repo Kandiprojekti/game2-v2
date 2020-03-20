@@ -1,0 +1,318 @@
+{
+    "Avain_furniture": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object":"Avain", "String": "examine"}
+            },
+            {
+                "command": "inventory_add",
+                "item": "Avain_item"
+            },
+            {
+                "command": "remove_object",
+                "object": "Avain_furniture"
+            }
+        ]
+    },
+    "Avain_item": {
+        "click": [
+            {
+                "command": "monologue", 
+                "textkey": {"object":"Avain", "String": "examine_inv"}
+            }
+        ],
+        "aikakone_furniture": [
+            {
+                "command": "inventory_remove",
+                "item": "Avain_item"
+            },
+            {
+                "command": "monologue", 
+                "textkey": {"object":"aikakone", "String": "start"},
+                "timeout": 3000 
+            },
+            {
+                "command": "do_transition", 
+                "destination": "aikakone"
+            }
+            
+        ]
+
+    },
+
+    "Jakoavain": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object":"jakoavain_furniture", "String": "examine"}
+            },
+            {
+                "command": "inventory_add",
+                "item": "Jakoavain_item"
+            },
+            {
+                "command": "remove_object",
+                "object": "Jakoavain_furniture"
+            }
+        ]
+    },
+    "Hattu": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object":"Hattu_furniture", "String": "examine"}
+            },
+            {
+                "command": "Inventory_add",
+                "item": "Hattu_item"
+            },
+            {
+                "command": "remove_object",
+                "object": "Hattu_furniture"
+            }
+        ]
+    },
+    "Nappi_furniture": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object":"Nappi_item", "String": "examine"}
+            },
+            {
+                "command": "inventory_add",
+                "item": "Nappi_item"
+            },
+            {
+                "command": "remove_object",
+                "object": "Nappi_furniture"
+            }
+        ]
+    },
+
+    "Nappi_item":{
+        "click":[
+            {
+                "command": "monologue",
+                "textkey": {"object":"Nappi_item", "String": "examine"}  
+            }
+        ],
+        "Nappi_paikka_furniture": [
+            {
+                "command": "monologue",
+                "textkey": {"object":"Nappi_item", "String": "Aikakone"}  
+            },
+            {
+                "command": "inventory_remove",
+                "item": "Nappi_item"
+            },
+            {
+                "command": "add_object",
+                "object": "Nappi_kiinni_furniture"
+            }
+
+        ]
+    },
+
+    "Nappi_paikka_furniture":{
+        "click":[
+            {
+                "command": "monologue",
+                "textkey": {"object":"Nappi_paikka", "String": "examine"}  
+            }
+        ]
+    },
+
+    "Nappi_kiinni_furniture": {
+            "click": [
+                {
+                    "command": "do_transition",
+                    "destination": "Ukraina"
+                },
+                {"command": "monologue",
+                    "textkey": {"object":"Ukraina", "String": "start"},
+                    "timeout": 3000
+                }
+            ]
+        },
+
+
+    "aikakone_furniture": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object":"aikakone_furniture", "String": "examine"}
+            }
+        ]
+    },
+    "Nappi_ekakerta": {
+        "click": [
+            {
+                "command": "do_transition",
+                "destination": "ukraina"
+            },
+            {"command": "monologue",
+                "textkey": {"object":"ukraina_start", "String": "start"},
+                "timeout": 3000
+
+            }
+        ]
+    },
+    "Nappi_tokakerta": {
+        "click": [
+            {
+                "command": "do_transition",
+                "destination": "kreikka"
+            },
+            {"command": "monologue",
+                "textkey": {"object":"kreikka_start", "String": "start"},
+                "timeout": 3000
+
+            }
+        ]
+    },
+    "Nappi_kolmaskerta": {
+        "click": [
+            {
+                "command": "do_transition",
+                "destination": "piha"
+            },
+            {"command": "monologue",
+                "textkey": {"object":"piha_start", "String": "start"},
+                "timeout": 3000
+            }
+        ]
+    },
+
+    "Kirja_2_furniture": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object":"Kirja_2", "String": "examine"}
+            }           
+        ]
+    },
+    "Ruuvimeisseli_furniture": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object":"Ruuvimeisseli", "String": "examine"}
+            },
+            {
+                "command": "inventory_add",
+                "item": "Ruuvimeisseli_item"
+            },
+            {
+                "command": "remove_object",
+                "object": "Ruuvimeisseli_furniture"
+            },
+            {
+                "command": "do_transition",
+                "destination": "aikakone2"
+            }
+
+        ]
+    },
+    "Ruuvimeisseli_item":{
+        "click":[
+            {
+                "command": "monologue",
+                "textkey": {"object":"Ruuvimeisseli_item", "String": "examine"}  
+            }
+        ],
+        "Ruuvi_furniture": [
+            {
+                "command": "inventory_remove",
+                "item": "Ruuvimeisseli_item"
+            },
+            {
+                "command": "remove_object",
+                "object": "Ruuvi_furniture"
+            },
+             {   "command": "add_object",
+                 "object": "Nappi_kiinni_furniture2"
+             },
+             {
+                "command": "monologue",
+                "textkey": {"object":"Nappi", "String": "examine"}  
+            }
+        ]
+    },
+    
+    "Nappi_kiinni_furniture2": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object":"Nappi_kiinni_furniture2", "String": "Painetaan"}
+            },
+            {
+                "command": "do_transition",
+                "destination": "Kreikka"
+            },
+            {"command": "monologue",
+                "textkey": {"object":"kreikka_start", "String": "start"},
+                "timeout": 3000
+
+            }
+        ]
+    },
+    "Kirja_2_furniture2": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object":"Kirja_2_furniture2", "String": "examine"}
+            },
+            {   "command": "add_object",
+                "object": "Hattu_furniture"
+            }          
+        ]
+    },
+
+    "Ruuvi_furniture": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object":"Ruuvi", "String": "examine"}
+            }          
+        ]
+    },
+    "Hattu_furniture": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object":"Hattu_furniture", "String": "examine"}
+            },
+            {   "command": "inventroy_add",
+                "object": "Hattu_item"
+            },
+            {
+                "command": "monologue",
+                "textkey": {"object":"Hattu_furniture", "String": "aikakoneeseen"}
+            },        
+            {
+                "command": "do_transition",
+                "destination": "aikakone3"
+            } 
+        ]
+    },
+
+    "Hattu_item":{
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object":"Hattu_furniture", "String": "examine"}
+            }
+        ],
+        "Hattuteline_furniture": [
+            {
+                "command": "inventory_remove",
+                "item": "Hattu_item"
+            },
+            {   "command": "add_object",
+                "object": "Hattu_furniture"
+            } 
+        ]
+
+    }
+
+}

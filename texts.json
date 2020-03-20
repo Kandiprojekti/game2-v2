@@ -1,0 +1,121 @@
+{
+    "default": {
+        "examine": "Tällä ei voi kyllä tehdä mitään. Mitä minun pitäisi oikein tehdä?"
+    },
+    "default.pickable": {
+        "default": "Tätä ei voi käyttää tähän. Voisin kyllä poimia tämän mukaani."
+    },
+    "start_credits": {
+        "name": "start_credits",
+        "examine": "Tämän pelin tekivät Oulun Steinerkoulun 8-luokkalaiset."
+    },
+    "intro": {
+        "examine": "Naapurin pihalla on aina hauska pyörähtää. Ikinä ei tiedä mitä tulee vastaan."
+        
+    },
+    "aikakone_furniture": { 
+        "examine": "Tuo laite näyttää selkeästi aikakoneelta. Pakko testata sitä. Mitenköhän pääsen sisään?"
+        
+    },
+    "Avain": {
+        "examine": "Tällä avaimella voin varmasti aukaista jotain",
+        "aikakone": "Hei tämähän aukaisee aikakoneen oven!",
+        "Hattu": "oletko aivan varma että tämä sopii tähän?",
+        "Puhelin": "Puhelimen aukaisuun tarvitaan kyllä erilainen menetelmä!",
+        "Reppu": "En kyllä ole kuullut repusta joka avataan avaimella",
+        "examine_inv": "Hmm mihinhän tämä avain voisi sopia?"
+
+    },
+    "huonekalunID": {
+        "examine": "Klikkaillaapa tätä höhöhö",
+        "hohhohhoh": "lolololo",
+        "kynä":  "lolo"
+    },
+    "Jakoavain": {  
+        "examine": "Olipa onni, että löysin tämän. Aikakone kun kaipaa pientä säätöä.",
+        "Mutteri": "Nyt mutterit kireälle ja kotia kohti",
+        "Aikakone": "Ei taida pelkän kuoren hakkaaminen riittää"
+
+    },
+    
+    "Hattu_furniture": {
+        "examine": "Joltain herralta on tippunut hattu. Otan tämän varmuuden vuoksi mukaan, jos vaikka sen omistaja löytyisi",
+        "aikakoneeseen": "En minä tänne voi jäädä. Lähdempä takaisin aikakoneeseen."
+
+    },"Kirja": {
+        "examine": "No voi jummi jammi minähän olen 1700-luvun Ukrainassa. Enhän minä tänne halunnut. Mitenköhän pääsen jatkamaan matkaa, kun aikakone näyttää olevan rikki"      
+
+    },"Kirja_2": {
+        "examine": "No voi jummi jammi minähän olen 1700-luvun Ukrainassa. Enhän minä tänne halunnut. Mitenköhän pääsen jatkamaan matkaa, kun aikakone näyttää olevan rikki",
+        "usage_esine1": "nyt taitaa olla väärä",
+        "usage_esine2": "oletko aivan varma että tämä sopii tähän?"
+
+    },
+    "Nappi_item": {
+        "examine": "Tämä nappi kyllä on irronnut jostain.",
+        "Aikakone": "Tämähän on laitteen puuttuva painike!",
+        "usage_esine2": "oletko aivan varma että tämä sopii tähän?"
+
+    },
+
+    "Nappi_paikka": {
+        "examine": "Tähän voisi laittaa jotain",
+        "Nappi_item": "Tämähän on laitteen puuttuva painike!. Ei muutakuin kokeillaan.",
+        "usage_esine2": "oletko aivan varma että tämä sopii tähän?"
+    },
+    "Nappi_kiinni_furniture2":{
+        "Painetaan": "Sitten mennään taas!"     
+    },
+    "Puhelin": {
+        "examine": "tämähän on tehty kullasta",
+        "usage_esine1": "nyt taitaa olla väärä",
+        "usage_esine2": "oletko aivan varma että tämä sopii tähän?"
+
+    },
+    "Purkki": {
+        "examine": "tämähän on tehty kullasta",
+        "usage_esine1": "nyt taitaa olla väärä",
+        "usage_esine2": "oletko aivan varma että tämä sopii tähän?"
+
+    },
+    "Reppu": {
+        "examine": "tämähän on tehty kullasta",
+        "usage_esine1": "nyt taitaa olla väärä",
+        "usage_esine2": "oletko aivan varma että tämä sopii tähän?"
+
+    },
+    "Ruuvi": {
+        "examine": "Tähän tarvin kyllä työkalun",
+        "usage_esine1": "nyt taitaa olla väärä",
+        "usage_esine2": "oletko aivan varma että tämä sopii tähän?"
+
+    },
+    "Ruuvimeisseli": {
+        "examine": "Tälle työkalulle on varmasti käyttöä",
+        "Ruuvi": "Kyllä vain! Ruuvin tiukennus vaatii ruuvimeisselin!",
+        "usage_esine2": "oletko aivan varma että tämä sopii tähän?"
+
+    },
+
+    "aloitushuone": {
+        "start": "Ulkona ollaan! Mutta hetkonen hei mikas tuolla pilkottaa?",
+        "kotiin_paluu": "Nyt näyttää tutulta! Olen vihdoin kotona. Nyt saa aikamatkailu riittää ainakin vähäksi aikaa"
+    },
+    "aikakone": {
+        "start": "Aikamatkailu alkakoon! Tarvitsen kuitenkin virtapainikkeen, jotta pääsen liikkeelle",
+        "Toinen_aikakone": "Nyt laitetaan tämä rötiskä kuntoon!",
+        "Kolmas_aikakone": "Mitenkäs tämän nyt saisi kuntoon. Ensiksi kyllä tyhjennän taskuni kaikesta turhasta",
+        "Avain": "Sisällä ollaan. Ei muutakuin tutkimaan",
+        "ekalahto": "Eikun menoksi"
+    },
+    "Ukraina": {
+        "start": "Kylläpäs näyttää vieraalta. Mika paikka tämä on ja mikä vuosi?"
+    },
+    "Kreikka": {
+        "start": "Vieläkään ei näytä tutulta. Pitääpä heti selvittää missä ihmeessä oikein olen."
+    },
+    "Kirja_2_furniture2":{
+        "examine": "Kirjan mukaan näyttäisi siltä, että olen 1800-luvun Kreikassa."
+    }
+}
+

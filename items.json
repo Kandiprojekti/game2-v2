@@ -1,0 +1,101 @@
+[
+    {
+        "attrs": {
+            "category": "item",
+            "id": "Avain_item",
+            "src": "images/Avain.png",
+            "visible": false
+        },
+        "className" : "Image"
+    },
+    {
+        "attrs": {
+            "category": "item",
+            "id": "aikakone_item",
+            "src": "images/aikakone.png",
+            "visible": false
+        },
+        "className" : "Image"
+    },
+    {
+        "attrs": {
+            "category": "item",
+            "id": "Hattu_item",
+            "src": "images/Hattu.png",
+            "visible": false
+        },
+        "className" : "Image"
+    },
+    {
+        "attrs": {
+            "category": "item",
+            "id": "Kirja_item",
+            "src": "images/Kirja.png",
+            "visible": false
+        },
+        "className" : "Image"
+    },
+    {
+        "attrs": {
+            "category": "item",
+            "id": "Kirja_2_item",
+            "src": "images/Kirja_2.png",
+            "visible": false
+        },
+        "className" : "Image"
+    },
+    {
+        "attrs": {
+            "category": "item",
+            "id": "Nappi_item",
+            "src": "images/Nappi.png",
+            "visible": false
+        },
+        "className" : "Image"
+    },
+    {
+        "attrs": {
+            "category": "item",
+            "id": "Puhelin_item",
+            "src": "images/Puhelin.png",
+            "visible": false
+        },
+        "className" : "Image"
+    },
+    {
+        "attrs": {
+            "category": "item",
+            "id": "Purkki_item",
+            "src": "images/Purkki.png",
+            "visible": false
+        },
+        "className" : "Image"
+    },
+    {
+        "attrs": {
+            "category": "item",
+            "id": "Reppu_item",
+            "src": "images/Reppu.png",
+            "visible": false
+        },
+        "className" : "Image"
+    },
+    {
+        "attrs": {
+            "category": "item",
+            "id": "Ruuvi_item",
+            "src": "images/Ruuvi.png",
+            "visible": false
+        },
+        "className" : "Image"
+    },
+    {
+        "attrs": {
+            "category": "item",
+            "id": "Ruuvimeisseli_item",
+            "src": "images/Ruuvimeisseli.png",
+            "visible": false
+        },
+        "className" : "Image"
+    }
+]
