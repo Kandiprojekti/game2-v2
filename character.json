@@ -4,8 +4,8 @@
             "attrs": {
                 "id": "character_idle_1",
                 "src": "images/character/character_idle_1.png",
-                "x": 764,
-                "y": 443,
+                "x": 810,
+                "y": 350,
                 "visible": true
             },
             "className": "Image"
@@ -15,8 +15,8 @@
                 "id": "character_idle_2",
                 "src": "images/character/character_idle_2.png",
                 "visible": false,
-                "x": 764,
-                "y": 443
+                "x": 810,
+                "y": 350
             },
             "className": "Image"
         },
@@ -25,8 +25,8 @@
                 "id": "character_speak_1",
                 "src": "images/character/character_speak_1.png",
                 "visible": false,
-                "x": 764,
-                "y": 443
+                "x": 810,
+                "y": 350
             },
             "className": "Image"
         },
@@ -35,8 +35,8 @@
                 "id": "character_speak_2",
                 "src": "images/character/character_speak_2.png",
                 "visible": false,
-                "x": 764,
-                "y": 443
+                "x": 810,
+                "y": 350
             },
             "className": "Image"
         },

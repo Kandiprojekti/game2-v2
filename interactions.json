@@ -16,47 +16,46 @@
         ]
     },
     "Avain_item": {
-        "click": [
+        
+        "aikakone_furniture": [
             {
                 "command": "monologue", 
-                "textkey": {"object":"Avain", "String": "examine_inv"}
-            }
-        ],
-        "aikakone_furniture": [
+                "textkey": {"object":"Avaa_aikakone", "String": "examine"}
+            },    
             {
                 "command": "inventory_remove",
                 "item": "Avain_item"
             },
             {
-                "command": "monologue", 
-                "textkey": {"object":"aikakone", "String": "start"},
-                "timeout": 3000 
+                "command": "remove_object",
+                "object": "aikakone_furniture"
             },
             {
-                "command": "do_transition", 
-                "destination": "aikakone"
+                "command": "add_object",
+                "object": "aikakone_furniture2"
             }
-            
         ]
 
     },
 
-    "Jakoavain": {
-        "click": [
+    "aikakone_furniture2": {
+        "click":[
             {
-                "command": "monologue",
-                "textkey": {"object":"jakoavain_furniture", "String": "examine"}
+            "command": "do_transition",
+            "destination": "aikakone"
             },
             {
-                "command": "inventory_add",
-                "item": "Jakoavain_item"
+                "command": "monologue", 
+                "textkey": {"object":"aikakone", "String": "examine"},
+                "timeout": 4000
             },
             {
                 "command": "remove_object",
-                "object": "Jakoavain_furniture"
+                "object": "aikakone_furniture2"
             }
         ]
     },
+
     "Hattu": {
         "click": [
             {
@@ -100,7 +99,7 @@
         "Nappi_paikka_furniture": [
             {
                 "command": "monologue",
-                "textkey": {"object":"Nappi_item", "String": "Aikakone"}  
+                "textkey": {"object":"Nappi_paikoilleen", "String": "examine"}  
             },
             {
                 "command": "inventory_remove",
@@ -130,8 +129,8 @@
                     "destination": "Ukraina"
                 },
                 {"command": "monologue",
-                    "textkey": {"object":"Ukraina", "String": "start"},
-                    "timeout": 3000
+                    "textkey": {"object":"Ukraina_room", "String": "examine"},
+                    "timeout": 4000
                 }
             ]
         },
@@ -142,44 +141,6 @@
             {
                 "command": "monologue",
                 "textkey": {"object":"aikakone_furniture", "String": "examine"}
-            }
-        ]
-    },
-    "Nappi_ekakerta": {
-        "click": [
-            {
-                "command": "do_transition",
-                "destination": "ukraina"
-            },
-            {"command": "monologue",
-                "textkey": {"object":"ukraina_start", "String": "start"},
-                "timeout": 3000
-
-            }
-        ]
-    },
-    "Nappi_tokakerta": {
-        "click": [
-            {
-                "command": "do_transition",
-                "destination": "kreikka"
-            },
-            {"command": "monologue",
-                "textkey": {"object":"kreikka_start", "String": "start"},
-                "timeout": 3000
-
-            }
-        ]
-    },
-    "Nappi_kolmaskerta": {
-        "click": [
-            {
-                "command": "do_transition",
-                "destination": "piha"
-            },
-            {"command": "monologue",
-                "textkey": {"object":"piha_start", "String": "start"},
-                "timeout": 3000
             }
         ]
     },
@@ -234,7 +195,7 @@
              },
              {
                 "command": "monologue",
-                "textkey": {"object":"Nappi", "String": "examine"}  
+                "textkey": {"object":"Nappi_kiinni_furniture2", "String": "examine"}  
             }
         ]
     },
@@ -250,8 +211,8 @@
                 "destination": "Kreikka"
             },
             {"command": "monologue",
-                "textkey": {"object":"kreikka_start", "String": "start"},
-                "timeout": 3000
+                "textkey": {"object":"Kreikka_room", "String": "examine"},
+                "timeout": 4000
 
             }
         ]
@@ -282,12 +243,13 @@
                 "command": "monologue",
                 "textkey": {"object":"Hattu_furniture", "String": "examine"}
             },
-            {   "command": "inventroy_add",
-                "object": "Hattu_item"
+            {   "command": "inventory_add",
+                "item": "Hattu_item"
             },
             {
                 "command": "monologue",
-                "textkey": {"object":"Hattu_furniture", "String": "aikakoneeseen"}
+                "textkey": {"object":"Kolmas_aikakone", "String": "examine"},
+                "timeout": 4000
             },        
             {
                 "command": "do_transition",
@@ -309,10 +271,35 @@
                 "item": "Hattu_item"
             },
             {   "command": "add_object",
-                "object": "Hattu_furniture"
-            } 
+                "object": "Hattu_furniture2"
+            },
+            {
+                "command": "monologue",
+                "textkey": {"object":"Hattu_naulaan", "String": "examine"}
+            },
+            {
+                "command":"do_transition",
+                "destination":"aloitushuone"
+            },
+            {
+                "command":"add_object",
+                "object":"puhelin_furniture" 
+            },
+            {
+                "command": "monologue",
+                "textkey": {"object":"paluu_alkuun", "String": "examine"},
+                "timeout": 4000
+            }
         ]
-
+    },
+    "puhelin_furniture": {
+        "click": [
+            {
+                "command": "play_sequence",
+                "sequence": "outro",
+                "monologue": false
+            }
+        ]
     }
 
 }

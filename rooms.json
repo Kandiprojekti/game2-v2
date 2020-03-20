@@ -33,9 +33,31 @@
                 {
                     "attrs": {
                         "category": "furniture",
+                        "id": "puhelin_furniture",
+                        "src": "images/Puhelin.png",
+                        "visible": false,
+                        "x": 500,
+                        "y": 330
+                    },
+                    "className": "Image"
+                },
+                {
+                    "attrs": {
+                        "category": "furniture",
                         "id": "aikakone_furniture",
                         "src": "images/aikakone.png",
                         "visible": true,
+                        "x": 50,
+                        "y": 240
+                    },
+                    "className": "Image"
+                },
+                {
+                    "attrs": {
+                        "category": "furniture",
+                        "id": "aikakone_furniture2",
+                        "src": "images/aikakone.png",
+                        "visible": false,
                         "x": 50,
                         "y": 240
                     },
@@ -214,7 +236,7 @@
                     "attrs": {
                         "category": "room_background",
                         "height": 543,
-                        "id": "aikakone_Tausta",
+                        "id": "aikakone_Tausta3",
                         "src": "images/1273_001.jpg",
                         "width": 981,
                         "visible": true
@@ -235,9 +257,9 @@
                 {
                     "attrs": {
                         "category": "furniture",
-                        "id": "Hattu_furniture",
+                        "id": "Hattu_furniture2",
                         "src": "images/Hattu.png",
-                        "visible": true,
+                        "visible": false,
                         "x": 720,
                         "y": 225
                     },

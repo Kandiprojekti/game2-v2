@@ -4,13 +4,13 @@
             {
                 "do_fade": true,
                 "id": "intro_1",
-                "show_time": 1000,
+                "show_time": 3000,
                 "text": {
                     "text": "Tämä on tarina aikamatkailusta"
                 }
             }
         ],
-        "transition_length": 1000
+        "transition_length": 3000
     },
     "outro": {
         "slides": [

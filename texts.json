@@ -18,14 +18,16 @@
         
     },
     "Avain": {
-        "examine": "Tällä avaimella voin varmasti aukaista jotain",
-        "aikakone": "Hei tämähän aukaisee aikakoneen oven!",
-        "Hattu": "oletko aivan varma että tämä sopii tähän?",
-        "Puhelin": "Puhelimen aukaisuun tarvitaan kyllä erilainen menetelmä!",
-        "Reppu": "En kyllä ole kuullut repusta joka avataan avaimella",
-        "examine_inv": "Hmm mihinhän tämä avain voisi sopia?"
-
+        "examine": "Tällä avaimella voin varmasti aukaista jotain"
     },
+    "Avain_item": {
+        "examine": "Tällä voin varmasti avata jotain"
+    },
+
+    "Avaa_aikakone":{
+        "examine": "Tämähän aukaisee aikakoneen oven!"
+    },
+
     "huonekalunID": {
         "examine": "Klikkaillaapa tätä höhöhö",
         "hohhohhoh": "lolololo",
@@ -39,8 +41,7 @@
     },
     
     "Hattu_furniture": {
-        "examine": "Joltain herralta on tippunut hattu. Otan tämän varmuuden vuoksi mukaan, jos vaikka sen omistaja löytyisi",
-        "aikakoneeseen": "En minä tänne voi jäädä. Lähdempä takaisin aikakoneeseen."
+        "examine": "Joltain herralta on tippunut hattu. Otan tämän varmuuden vuoksi mukaan, jos vaikka sen omistaja löytyisi.\nEn minä tänne voi jäädä. Lähdempä takaisin aikakoneeseen"
 
     },"Kirja": {
         "examine": "No voi jummi jammi minähän olen 1700-luvun Ukrainassa. Enhän minä tänne halunnut. Mitenköhän pääsen jatkamaan matkaa, kun aikakone näyttää olevan rikki"      
@@ -55,16 +56,18 @@
         "examine": "Tämä nappi kyllä on irronnut jostain.",
         "Aikakone": "Tämähän on laitteen puuttuva painike!",
         "usage_esine2": "oletko aivan varma että tämä sopii tähän?"
-
     },
 
     "Nappi_paikka": {
         "examine": "Tähän voisi laittaa jotain",
-        "Nappi_item": "Tämähän on laitteen puuttuva painike!. Ei muutakuin kokeillaan.",
         "usage_esine2": "oletko aivan varma että tämä sopii tähän?"
     },
+    "Nappi_paikoilleen": {
+        "examine": "Tämähän on laitteen puuttuva painike! Ei muutakuin kokeillaan."
+    },
+
     "Nappi_kiinni_furniture2":{
-        "Painetaan": "Sitten mennään taas!"     
+        "examine": "Sitten mennään taas!"     
     },
     "Puhelin": {
         "examine": "tämähän on tehty kullasta",
@@ -98,22 +101,31 @@
     },
 
     "aloitushuone": {
-        "start": "Ulkona ollaan! Mutta hetkonen hei mikas tuolla pilkottaa?",
-        "kotiin_paluu": "Nyt näyttää tutulta! Olen vihdoin kotona. Nyt saa aikamatkailu riittää ainakin vähäksi aikaa"
+        "start": "Ulkona ollaan! Mutta hetkonen hei mikas tuolla pilkottaa?"
     },
+
+    "paluu_alkuun":{
+        "examine": "Nyt näyttää tutulta! Olen vihdoin kotona. Nyt saa aikamatkailu riittää ainakin vähäksi aikaa"
+    },
+
     "aikakone": {
-        "start": "Aikamatkailu alkakoon! Tarvitsen kuitenkin virtapainikkeen, jotta pääsen liikkeelle",
+        "examine": "Aikamatkailu alkakoon! Tarvitsen kuitenkin virtapainikkeen, jotta pääsen liikkeelle",
         "Toinen_aikakone": "Nyt laitetaan tämä rötiskä kuntoon!",
-        "Kolmas_aikakone": "Mitenkäs tämän nyt saisi kuntoon. Ensiksi kyllä tyhjennän taskuni kaikesta turhasta",
         "Avain": "Sisällä ollaan. Ei muutakuin tutkimaan",
         "ekalahto": "Eikun menoksi"
     },
-    "Ukraina": {
-        "start": "Kylläpäs näyttää vieraalta. Mika paikka tämä on ja mikä vuosi?"
+    "Kolmas_aikakone": {
+        "examine": "Mitenkäs tämän nyt saisi kuntoon. Ensiksi kyllä tyhjennän taskuni kaikesta turhasta"
     },
-    "Kreikka": {
-        "start": "Vieläkään ei näytä tutulta. Pitääpä heti selvittää missä ihmeessä oikein olen."
+    "Ukraina_room": {
+        "examine": "Kylläpäs näyttää vieraalta. Mika paikka tämä on ja mikä vuosi? Onneksi minulla on historiankirja mukana"
     },
+    "Kreikka_room": {
+        "examine": "Vieläkään ei näytä tutulta. Pitääpä heti selvittää missä ihmeessä oikein olen."
+    },
+    "Hattu_naulaan": {
+    "examine": "Mutta mitä nyt tapahtuu? Hattu käynnisti koneen yhtäkkiä!\nAikakone pysähtyi. Sehän näköjään toimii DNA:lla. Kurkataampa ulos."
+},
     "Kirja_2_furniture2":{
         "examine": "Kirjan mukaan näyttäisi siltä, että olen 1800-luvun Kreikassa."
     }
